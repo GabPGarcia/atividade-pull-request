@@ -1,0 +1,45 @@
+.contato-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contato-container h1 {
+    font-size: 32px;
+    color: rgb(46, 22, 0);
+    margin-bottom: 20px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.form-contato label {
+    text-align: left;
+    font-weight: bold;
+    color: rgb(46, 22, 0);
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-contato button {
+    width: 150px;
+    align-self: center;
+}
+
+.contato-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: rgb(46, 22, 0);
+}
